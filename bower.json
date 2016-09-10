@@ -1,0 +1,18 @@
+{
+	"name": "optimizedhtml",
+	"version": "1.0.0",
+	"description": "My awesome jQuery plugins",
+	"authors": [
+		"Kirill Vorobyov <mishkacod@gmail.com>"
+	],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components"
+	],
+	"dependencies": {
+		"jquery": "^3.1.0",
+		"normalize-css": "^4.2.0"
+	}
+}
