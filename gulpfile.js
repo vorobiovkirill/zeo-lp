@@ -43,7 +43,7 @@ gulp.task('sass', function() { // Создаем таск Sass
 // // ===================================================
 gulp.task('libs', function() {
 	return gulp.src([ // Берем все необходимые библиотеки
-		'./bower_components/jquery/dist/jquery.min.js', // Берем jQuery
+		'bower_components/jquery/dist/jquery.min.js', // Берем jQuery
 		// сюда через заяпятую перечисляем все библиотеки
 		])
 		.pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js

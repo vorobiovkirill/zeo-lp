@@ -1,2 +1,177 @@
 @import bourbon
 @import vars
+
+
+.section-steps
+	padding: 25px 0 40px
+
+	.steps-wrapper
+		margin-top: 40px
+
+	.steps-item
+		border: 1px solid #dde3e7
+		padding: 21px 17px
+		margin: 20px 0
+		font-size: rem(14)
+		color: #414141
+		span
+			font-weight: 600
+			margin-left: 25px
+			text-transform: uppercase
+		a
+			font-weight: bold
+			text-decoration: underline
+
+	.logos-d
+		img
+			padding: 0 20px
+
+.section-logos
+	position: relative
+	width: 100%
+	border-top: 1px solid #f1f7fa
+	padding: 30px 0
+
+	.logos-wrapper
+		padding: 0 130px
+
+.section-cas
+	position: relative
+	width: 100%
+	background: #f3f6f8
+	padding-bottom: 45px
+
+.cas-wrapper
+
+	.blue
+		color: $links-color
+
+	.hex-wrapper
+		padding-top: 20px
+		.ml
+			margin-left: 60px
+
+	.hexagon
+		position: relative
+		width: 90px
+		height: 50px
+		background-color: #fff
+		margin: 0 7px 30px;
+		border-left: 1px solid #dddddd
+		border-right: 1px solid #dddddd
+		float: left
+		text-align: center
+		img
+			position: relative
+			z-index: 5
+		&:before, &:after
+			content: ''
+			position: absolute
+			z-index: 1
+			width: 63.64px
+			height: 63.64px
+			transform: scaleY(0.5774) rotate(-45deg)
+			background-color: inherit
+			left: 12.1802px
+		&:before
+			top: -31.8198px
+			border-top: solid 1.4142px #dddddd
+			border-right: solid 1.4142px #dddddd
+		&:after
+			bottom: -31.8198px;
+			border-bottom: solid 1.4142px #dddddd
+			border-left: solid 1.4142px #dddddd
+
+.cas-item
+	text-align: center
+	border: 1px solid #dddddd
+	border-radius: 5px
+
+	.cas-item-image
+		background: #f8fafb
+		border-bottom: 1px solid #dddddd
+		padding: 15px 0 20px
+		span
+			font-size: rem(14)
+			color: #3a3a3a
+			text-transform: uppercase
+
+		.sprite-container
+			width: 70px
+			height: 80px
+			margin: 0 auto 15px
+			background:
+				image: url('../img/icon__sprire_big.png')
+				repeat: no-repeat
+				size: cover
+				position: -150px center
+
+	.cas-item-content
+		padding: 20px
+		font-size: rem(14)
+		background: #ffffff
+		.btn-white
+			margin-top: 30px
+			width: 170px
+			margin: 0 auto
+
+.section-reviews
+	padding: 6px 0 50px
+
+	.reviews-wrapper
+		margin-top: 9px
+
+		.reviews-item
+			position: relative
+			border: 1px solid #dddddd
+			border-radius: 2px
+			height: 270px
+			margin: 10px 0
+
+			.reviews-stars
+				padding: 20px 25px 15px
+
+				.star
+					display: inline-block
+					+size(15px)
+					background: url('../img/star.png') center no-repeat
+					background-size: cover
+
+			.reviews-text
+				padding: 0 25px 20px
+				font-size: rem(16)
+				color: #737373
+
+			.reviews-data
+				@include position(absolute, null 0 0 0)
+				padding: 20px 25px
+				border-top: 1px solid #dddddd
+				font-size: rem(14)
+				color: #878787
+				.name
+					display: block
+					color: #111111
+					font-weight: 60
+
+.section-download
+	position: relative
+	width: 100%
+	padding: 40px 0
+	border: 1px solid #dddddd
+	.download-wrapper
+		a
+			margin-bottom: 5px
+
+.section-menu
+	position: relative
+	width: 100%
+	background: #fafdff
+
+	.menu
+		li
+			display: inline-block
+			a
+				font-size: rem(14)
+				font-weight: 400
+				color: #434343
+				padding: 0 10px
